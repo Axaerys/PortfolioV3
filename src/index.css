@@ -10,12 +10,36 @@
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
-
 }
 .td{
   transition: 0.5s ease;
   /* color: #ff533f; */
 }
+
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track with padding using insets */
+::-webkit-scrollbar-track {
+  background: transparent;
+  margin-top: 2rem;  /* Add padding-like effect on top */
+  margin-bottom: 2rem;  /* Add padding-like effect on bottom */
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #AA0000;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #CC0000;
+}
+
 
 @layer components {
   .max-container {
@@ -35,7 +59,7 @@
   }
 
   .padding-a {
-    @apply sm:px-32 px-8;
+    @apply sm:px-32 px-2;
   }
 
   .padding-x {
