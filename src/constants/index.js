@@ -38,7 +38,7 @@ export const skills = [
 ]
 
 export const projects = [
-    { title: "AquaSerene", desc: "The AquaSerene app is a user-friendly booking solution for a fictional spa. It lets clients browse services, check real-time availability, and book/manage appointments.", link: "https://www.facebook.com", img: AquaSerene, alt:"AquaSerene"},
+    { title: "AquaSerene", desc: "The AquaSerene app is a user-friendly booking solution for a fictional spa. It lets clients browse services, check real-time availability, and book/manage appointments.", link: "https://youtu.be/v_DTUGAoxkk", img: AquaSerene, alt:"AquaSerene"},
     { title: "Iceberg", desc: "The IceBerg Financial app features a sleek, intuitive front-end design that delivers seamless access to financial solutions.", link: "https://iceberg.financial/home.html", img: IceBerg, alt:"IceBerg"},
     { title: "Qike", desc: "The Qike app features a sleek front-end design that reflects the brand's energy. Users can easily browse collections and explore features for an engaging experience.", link: "https://axaerys.github.io/Qike/", img: Qike, alt:"Qike"},
     

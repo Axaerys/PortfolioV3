@@ -27,7 +27,7 @@ const Resume = () => {
       </div>
       <div className="mb-8 flex justify-center items-center ">
         <div className=" max-sm:w-48 w-[17rem] ">
-          <a href="../assets/Resume.docx" download>
+          <a href="./Resume.pdf" download="AmirsResume.pdf">
             <button class="relative z-40 w-full h-12 items-center justify-center flex gap-2 border-2 font-palanquin tracking-widest border-white text-white font-semibold text-lg rounded-lg px-4 py-2 hover:border-dark-red hover:text-dark-red td">
               Download CV
             </button>
