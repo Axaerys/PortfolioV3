@@ -14,7 +14,7 @@ export const locations = [
 ];
 
 export const education = [
-    { title: "University of Wollongong", desc1: "<b>Graduated</b> with a Bachelor of Computer Science from the University of Wollongong in Dubai in July 2023. Recognized as the Top Graduate in November 2023, I honed my skills in software development, problem-solving, and cutting-edge technologies during my studies.", year: "2020-2023"},
+    { title: "University of Wollongong", desc1: "<b>Graduated</b> with a Bachelor of Computer Science from the University of Wollongong in July 2023. Recognized as the Top Graduate in November 2023, I honed my skills in software development, problem-solving, and cutting-edge technologies during my studies.", year: "2020-2023"},
     { title: "Online Courses", desc1: "<b>Expanded</b> my development skills through online courses in TailwindCSS, Bootstrap, ReactJS, and NodeJS. These courses provided me with hands-on experience in building responsive web applications, mastering front-end design systems, and developing robust back-end solutions.", year: "2023-2024"},
 ];
 

@@ -29,7 +29,7 @@ const Hero = () => {
   };
 
   return (
-    <div className="max-container h-full bg-dark-gray rounded-3xl px-4 pt-4 flex flex-col justify-start items-center sm:w-[22rem] sm:max-w-[24rem]">
+    <div className="max-container min-h-full bg-dark-gray rounded-3xl px-4 pt-4 flex flex-col justify-center items-center sm:w-[22rem] sm:max-w-[24rem]">
       <div className="bg-light-gray min-w-48 min-h-48 flex justify-center items-center rounded-3xl mb-4">
         <div className="w-36 h-36 bg-dark-gray rounded-full overflow-hidden">
           <img
@@ -91,7 +91,8 @@ const Hero = () => {
           ))}
         </div>
       </div>
-      <nav className=" pt-8 w-full max-container font-palanquin rounded-3xl px-2 py-3 flex gap-4 text-sm text-center justify-center items-end sm:absolute sm:bottom-8">
+      <hr className="w-52 mt-4 border-light-gray border-2 rounded-full" />
+      <nav className=" w-full max-container font-palanquin rounded-3xl px-2 py-3 flex gap-4 text-sm text-center justify-center items-end ">
         <a href="#Resume" className="hover:text-dark-red td">
           Resume
         </a>
