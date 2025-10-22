@@ -18,7 +18,10 @@ const Resume = () => {
         <Timeline passed={experience}></Timeline>
       </div>
       <div className="mb-8">
-        <h3 className="text-xl font-montserrat font-bold mb-4">Skills</h3>
+        <h3 className="text-xl font-montserrat font-bold mb-4">
+          Skills
+          <span className="text-[12px] font-normal ml-1">(mastery %)</span>
+        </h3>
         <div className="flex max-md:flex-col max-lg:justify-center flex-wrap gap-5 mt-8 items-center justify-center ">
           {skills.map((prop, index) => (
             <Skills key={index} item={prop} />

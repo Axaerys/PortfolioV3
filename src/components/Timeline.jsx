@@ -16,9 +16,12 @@ const Timeline = ({ passed }) => {
                     alt=""
                   />
                   <div className="ml-6">
-                    <h4 className="font-semibold text-lg font-montserrat text-white">
-                      {item.title}
-                    </h4>
+                    <h4
+                      className="font-semibold text-lg font-montserrat text-white small-span"
+                      dangerouslySetInnerHTML={{
+                        __html: item.title,
+                      }}
+                    />
                   </div>
                   <span
                     className="mt-1 pl-6 block text-sm font-palanquin font-semibold text-dark-red"

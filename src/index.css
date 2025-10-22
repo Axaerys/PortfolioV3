@@ -16,7 +16,10 @@
   /* color: #ff533f; */
 }
 
-
+.small-span span{
+  font-size: x-small;
+  font-style: italic;
+}
 /* Scrollbar */
 ::-webkit-scrollbar {
   width: 5px;

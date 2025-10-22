@@ -21,6 +21,7 @@ import person from "./person.svg";
 import home from "./home.svg";
 import expectation from "./expectation.svg";
 import future from "./future.svg";
+import framermotion from "./framermotion.svg";
 
 
 export {
@@ -47,4 +48,5 @@ export {
     home,
     expectation,
     future,
+    framermotion,
 }
