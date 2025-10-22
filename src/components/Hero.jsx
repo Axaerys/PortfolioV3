@@ -30,8 +30,8 @@ const Hero = () => {
 
   return (
     <div className="max-container min-h-full bg-dark-gray rounded-3xl px-4 pt-4 flex flex-col justify-center items-center sm:w-[22rem] sm:max-w-[24rem]">
-      <div className="bg-light-gray min-w-48 min-h-48 flex justify-center items-center rounded-3xl mb-4">
-        <div className="w-36 h-36 bg-dark-gray rounded-full overflow-hidden">
+      <div className="bg-light-gray min-w-48 min-h-48 flex justify-center items-center rounded-3xl mb-4 overflow-hidden">
+        <div className="w-36 h-36 bg-dark-gray borderTranstion hover:scale-[1.37] td overflow-hidden">
           <img
             src={myPic}
             alt="My Pic"
@@ -54,7 +54,10 @@ const Hero = () => {
               onMouseLeave={handleMouseLeave}
               onClick={() => copyToClipboard(icon.value)}
             >
-              <button className="flex justify-center items-center w-12 h-12 bg-light-gray rounded-full hover:scale-95 td">
+              <button
+                title="Click to Copy"
+                className="flex justify-center items-center w-12 h-12 bg-light-gray rounded-full hover:scale-95 td"
+              >
                 <img src={icon.src} alt={icon.alt} width={24} height={24} />
               </button>
             </div>
@@ -79,7 +82,10 @@ const Hero = () => {
               href={icon.link}
               target="_blank"
             >
-              <button className="flex justify-center items-center w-12 h-12 bg-light-gray rounded-full hover:scale-95 td">
+              <button
+                title="Click to Visit"
+                className="flex justify-center items-center w-12 h-12 bg-light-gray rounded-full hover:scale-95 td"
+              >
                 <img src={icon.src} alt={icon.alt} width={24} height={24} />
               </button>
               {/* Separate div for each icon.value */}

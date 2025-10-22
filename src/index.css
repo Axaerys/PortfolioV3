@@ -93,3 +93,11 @@
     @apply font-montserrat text-slate-gray text-lg leading-7;
   }
 }
+
+.borderTranstion {
+  border-radius: 99px; /* Initial border-radius */
+}
+
+.borderTranstion:hover {
+  border-radius: 1.5rem; /* New border-radius on hover */
+}

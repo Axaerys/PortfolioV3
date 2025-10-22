@@ -10,6 +10,7 @@ export const socialMedia = [
 export const locations = [
     { src: linkedin, alt: "linkedin logo", value: "linkedin.com/in/sarm2001", link: "https://www.linkedin.com/in/sarm2001" },
     { src: uni, alt: "University logo", value: "Bachelors of CS<br />University of Wollongong", link: "https://www.uow.edu.au/" },
+    { src: uni, alt: "University logo", value: "Masters of CS<br />Herriot-Watt University", link: "https://www.hw.ac.uk/" },
     // { src: pin, alt: "Location logo", value: "Dubai, UAE"},
 ];
 
