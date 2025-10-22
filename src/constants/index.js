@@ -51,7 +51,7 @@ export const projects = [
 
 
 export const abouts = [
-    { title: "Personal", desc: "I am born in September 2001. I am currently pursuing my Master's degree in Computer Science, having a Bachelor's degree in the same field.", logo: person, alt: "person" },
+    { title: "Personal", desc: "I am a driven and adaptable professional, born in September 2001, with a Bachelor's degree in Computer Science. I have been told I am resourceful, detail-oriented, and innovative.", logo: person, alt: "person" },
     { title: "Residency", desc: "I am Iranian by nationality and have lived mostly in Dubai since 2004. Dubai offers a unique blend of cultures and experiences that have shaped my identity and perspective.", logo: home, alt: "home" },
     { title: "Expectations", desc: "In a work environment, I seek engaging projects, creative challenges, and opportunities for growth along with a fair wage that reflects my skills and contributions.", logo: expectation, alt: "expectation" },
     { title: "Future", desc: "I envision climbing the corporate ladder, mastering skills and technologies needed for the desired position. Additionally, I hope to start my own business someday.", logo: future, alt: "future" },
